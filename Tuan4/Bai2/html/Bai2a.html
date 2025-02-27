@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form and Table</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 40%;
+            justify-self: center;
+        }
+        .form-label{
+            font-weight: bold;
+            color: gray;
+            font-size: 13.5px;
+            
+        }
+        .row-1{
+            background-color: rgb(237, 237, 243);
+        }
+        small{
+            color:gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container m-5 border">
+        <div class="row p-5 row-1">
+            <table class="table">
+                <tr class="border-bottom">
+                    <h5>Checkout</h5>
+                </tr>
+                <tr>
+                    <td class="border-0">
+                        <b>Product 1</b> <br>
+                        <small>Lorem ipsum dolor sit amet</small>
+                    </td>
+                    <td class="text-end border-0">
+                        <b>$200</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Product 2</b> <br>
+                        <small>Lorem ipsum dolor sit amet</small>
+                    </td>
+                    <td class="text-end">
+                        <b>$120</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="border-0 pt-3"><b>Total</b></td>
+                    <td class="text-end border-0 pt-3"><b>$320</b></td>
+                </tr>
+            </table>
+        </div>
+        <div class="row m-3">
+            <table class="table">
+                <tr><h5>Credit Card Details</h5> <hr></tr>
+                <tr>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-7">
+                                <label for="card" class="form-label mb-3">CARD HOLDER</label>
+                                <input type="text" class="form-control" placeholder="Card Holder" style="width: 260px;">
+                            </div>
+                            <div class="col-5">
+                                <div class="row g-0">
+                                    <label for="date" class="form-label mb-3">EXPIRATION DATE</label>
+                                </div>
+                                <div class="row mt-1">
+                                    <div class="col-5 g-md-0">
+                                        <input type="text" class="form-control mb-3" placeholder="MM">
+                                    </div>
+                                    <div class="col-2 justify-content-center">
+                                        <span>/</span>
+                                    </div>
+                                    <div class="col-5 g-md-0">
+                                        <input type="text" class="form-control mb-3" placeholder="YY">
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <label for="card" class="form-label mb-3">CARD NUMBER</label>
+                                <input type="text" class="form-control" placeholder="Card Number" style="width: 310px;">
+                            </div>
+                            <div class="col-4 g-0">
+                                <label for="card" class="form-label mb-3">CVC</label>
+                                <input type="text" class="form-control w-100" placeholder="CVC">
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <button type="submit" class="btn bg-primary text-white">Proceed</button>
+                        </div>
+                    </form>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

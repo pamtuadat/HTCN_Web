@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            height: 50rem;
+            border: .125rem solid red;           
+        }
+        .header{
+            height: 6.25rem;
+            width: 100%;
+            border-bottom: .125rem dashed white;
+            background: rgb(124, 174, 202);
+        }
+        .menu{
+            list-style: none;
+            display: inline-block; 
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+        }
+        .content{
+            height: 40.625rem;
+            background: rgb(124, 174, 202);
+            color: white;
+        }
+        .nav{
+            width: 59%;
+            height: 40.625rem;
+            border-right: .0625rem;
+        }
+        .picture{
+            float: left;
+            width: 40%;
+            height: 40.625rem;
+        }
+        input{
+            border-radius: .3125rem;
+        }
+        .footer{
+            border-top: .125rem dashed white;
+            background: rgb(124, 174, 202);
+            color: white;
+            height: 3.125rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="nav">
+            <h1>Registration Information</h1>
+            <p>Start your travel planning now with our on-line tour regstration
+                form. Just tell us a little about yourself and your group and one of our travel
+                experts will contact  you  to create the perfect custom built for your group's needs .
+                Your've arrived.</p>
+            <form action="">
+                Title <select style="border-radius: .3125rem;">
+                    <option value="">Mr.</option>
+                    <option value="">Mrs.</option>
+                </select><br>
+                Full name* <input type="text" value="Fisrt Name"><br>
+                Mailing Address <input type="text" value="Mailing Address"><br>
+                City <input type="text" value="City"><br>
+                Country <input type="text" value ="Country"><br>
+                Specifie questions or requests about your tour <textarea style="height: 6.25rem; width: 18.75rem; border-radius: .3125rem;">Specifie questions or requests about your tour</textarea><br>
+                <button type="button">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div class="picture">
+            <img src="../Bai1/sky.png" alt="hinh-anh" style="height: 6.25rem; width: 12.5rem;">
+            <h1 >You've arrived</h1>
+            <h4>Journeys as great as the destinations.</h4>
+        </div>
+        
+    </div>
+    <div class="footer" style="text-align: center;">
+        <small>2016 Sky World Tours. All rights reserved.</small><br>
+        Contact information: Student Name | StudentID | Testing Date 
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

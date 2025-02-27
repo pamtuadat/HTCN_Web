@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1c</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .active{
+            width: 35%;
+            border-radius: 20px;
+            background: rgb(146, 230, 146);
+            font-weight: bolder;
+        }
+        .onboarding{
+            width: 55%;
+            background: rgb(177, 177, 243);
+            font-weight: bolder;
+            border-radius: 20px;
+        }
+        .awaiting{
+            width: 45%;
+            background: rgb(230, 199, 142);
+            color: orange;
+            font-weight: bolder;
+            border-radius: 20px;
+        }
+        .col-1 a{
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container m-5">
+        <div class="row border-bottom h-100 p-4 bg-light">
+            <div class="col-4">
+                <h4>Name</h4>
+            </div>
+            <div class="col-3">
+                <h4>Title</h4>
+            </div>
+            <div class="col-2">
+                <h4>Status</h4>
+            </div>
+            <div class="col-2">
+                <h4>Position</h4>
+            </div>
+            <div class="col-1">
+                <h4>Actions</h4>
+            </div>
+        </div>
+        <div class="row border-bottom">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-6 g-0 text-center">
+                        <img src="../img/john.png" alt="anh" class="w-50 h-75 mt-3">
+                    </div >
+                    <div class="col-6 g-0 mt-4">
+                        <h5>John Doe</h5>
+                        <p>john.doe@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mt-4">
+                <h5>Software engineer</h5>
+                <p>IT department</p>
+            </div>
+            <div class="col-2 mt-5">
+                <p class ="active text-success border text-center p-1">Active</p>
+            </div>
+            <div class="col-2 mt-5">
+                <p>Senior</p>
+            </div>
+            <div class="col-1 mt-5">
+                <a href="#">EDIT</a>
+            </div>
+        </div>
+        <div class="row border-bottom">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-6 g-0 text-center">
+                        <img src="../img/alex.png" alt="anh" class="w-50 h-75 mt-3">
+                    </div >
+                    <div class="col-6 g-0 mt-4">
+                        <h5>Alex Ray</h5>
+                        <p>alex.ray@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mt-4">
+                <h5>Consultant</h5>
+                <p>Finance</p>
+            </div>
+            <div class="col-2 mt-5">
+                <p class ="onboarding text-primary border text-center p-2">Onboarding</p>
+            </div>
+            <div class="col-2 mt-5">
+                <p>Junior</p>
+            </div>
+            <div class="col-1 mt-5">
+                <a href="#">EDIT</a>
+            </div>
+        </div>
+        <div class="row border-bottom">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-6 g-0 text-center">
+                        <img src="../img/kate.png" alt="anh" class="w-50 h-75 mt-3">
+                    </div >
+                    <div class="col-6 g-0 mt-4">
+                        <h5>Kate Hunington</h5>
+                        <p>kate.hungnington@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mt-4">
+                <h5>Designer</h5>
+                <p>UI/UX</p>
+            </div>
+            <div class="col-2 mt-5">
+                <p class ="awaiting border text-center p-1">Awaiting</p>
+            </div>
+            <div class="col-2 mt-5">
+                <p>Senior</p>
+            </div>
+            <div class="col-1 mt-5">
+                <a href="#">EDIT</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

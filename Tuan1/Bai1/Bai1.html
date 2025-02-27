@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai01</title>
+    <style>
+        #menu a:not(:last-child)::after {
+            content: "|";
+            margin-left: 10px; /* Khoảng cách giữa chữ và dấu gạch */
+            color: silver;
+        }
+
+        a{
+            color: blue;
+            margin: 10px; 
+            gap: 16px;
+        }
+
+        h3{
+            font-size: 20px-small;
+        }
+
+        li{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!--Tieu de-->
+    <h1 id = "start">Example Cafe Menu</h1>
+    <div id = "menu">
+        <a href="#Starters">Starters</a>
+        <a href="#Main Course">Main Courses</a>
+        <a href="#Desserts">Dessert</a>
+    </div>
+    
+    <!---Starters--->
+    <h1 id = "Starters">Starters
+        
+        <li>Chestnut and Mushroom Goujons (<a href="#ghi chu">v</a>)</li>
+        <li>Goat Cheese Salad (<a href="#ghi chu">v</a>)</li>
+        <li>Honey Soy Chicken Kebabs</li>
+        <li>Seafood Salad</li>
+        
+    </h1>
+    <a href="#start"><h3>Back to top</h3></a>
+  
+    <!---Main Course--->
+    <h1 id ="Main Course">Main courses
+        <li>Spinach and Ricotta Roulade (<a href="#ghi chu">v</a>)</li>
+        <li>Beef Tournados with Mustard and Dill Sauce</li>
+        <li>Roast Chicken Salad</li>
+        <li>Icelandic Cod with Parsley Saure</li>
+        <li>Mushroom Wellington (<a href="#ghi chu">v</a>)</li>
+    
+    </h1>
+    <a href="#start"><h3>Back to top</h3></a>
+
+    <!--Desserts--->
+    <h1 id = "Desserts">Desserts
+        <li>Lemon Sorbet (<a href="#ghi chu">v</a>)</li>
+        <li>Chocolate Mud Pie (<a href="#ghi chu">v</a>)</li>
+        <li>Pecan Pie (<a href="#ghi chu">v</a>)</li>
+        <li>Select of Fine Cheese from Around the World</li>
+        
+    </h1>
+    <a href="#start"><h3>Back to top</h3></a>
+    <h5 id ="ghi chu">Items marked with a (v) are suitable for vegetarians.</h5>
+
+</body>
+</html>

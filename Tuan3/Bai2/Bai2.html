@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0 auto;
+        }
+        body{
+            height: 700px;
+            width: 1000px;
+            border: 1px solid black;
+        }
+        /* phan dau trang */
+        .header{
+            height: 130px;
+            width: 100%;
+            background-color:  #294e79;
+            color: white;
+
+        }
+        .header img{
+            height: 70%;
+            width: 8%;
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+        .header div{
+            position: absolute;
+            top: 20px;
+            left: 370px;
+        }
+        .header ul li{
+            list-style: none;
+            position: relative;
+            left: 290px;
+            bottom: 5px;
+        }
+        .header ul li a{
+            float: left;
+            background-color:  #658ebf;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            margin-left: 20px;
+            height: 40px;
+            line-height: 40px;
+            min-width: 120px;
+       
+        }
+        .header .tim-kiem{
+            position: absolute;
+            left: 1050px;
+            top: 10px;
+        }
+        /* phan than cua trang */
+        .content{
+            height: 520px;
+            width: 100%;
+        }
+        .content .section-1{
+            float: left;
+            width: 60%;
+            height: 100%;
+            color: rgb(14, 14, 14);
+
+        }
+        .section-1 .format{
+            width: 60%;
+            height: 100%;
+            float: left;  
+        }
+        .section-1 .format p{
+            padding: 20px;
+            color: red;
+            text-shadow: 2px 2px 3px green;
+            font-style: italic;
+        }
+        .format ul li{
+            list-style: none;
+            margin-left: 10px;
+        }
+        .format ul li label{
+            margin-right: 100px;
+        }
+        .format ul li textarea{
+            height: 60px;
+            width: 332px;
+        }
+        .format button{
+            margin-top: 20px;
+            margin-left: 10px;
+            height: 30px;
+            width: 70px;
+        }
+        .section-1 .infor{
+            float: left;
+            width: 40%;
+            height: 100%;
+        }
+        .infor p{
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .content .section-2{
+            width: 20%;
+            height: 60%;
+            float: left;
+            background-color:#f8f8f8;
+            padding: 40px;
+            position: relative;
+            left: 90px;
+            top: 20px;
+            color: #9a9a9b;
+        }
+        .section-2 img{
+            width: 100%;
+            height: 30%;
+            border: 2px solid gray;
+            padding: 5px;
+            border-radius: 2px;
+            margin-top: 20px;
+        }
+        .section-2 p{
+            margin-top: 10px;
+            color:  #bebebe;
+        }
+        .section-2 h4{
+            position: absolute;
+            right: 8px;
+            bottom: 20px;
+            color: blue;
+        }
+        h3{
+            color:  #bebebe;
+        }
+        /* phan ket trang */
+        .footer{
+            clear: both;
+            height: 50px;
+            width: 100%;
+            background-color:#294e79;
+            color: rgb(247, 241, 241);
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="../Bai2/flower.png" alt="lo-go">
+        <div>
+            <h1>FlowerBox 360</h1>
+            <p>...to get your daily close of luxury roses!</p>
+        </div>
+        
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Promotion</a></li>
+            <li><a href="#">Gift Baskets</a></li>
+            <li><a href="#">Flower Services</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <div class="tim-kiem">
+            <input type="search" value="Search the site..."> 
+            <button type="button">GO</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="section-1">
+            <h3 style="border-bottom: 3px dashed; padding-bottom: 10px; padding-top: 20px; padding-left: 5px; ">Why Not Contact Us Today!</h3>
+            <div class="format">
+                <p>For FlowerBox 360 shopers, that means not only can you send your 
+                    friends and loves ones the highest
+                    quality flowers found on online, but thatt you can do so at a 
+                    great value.</p>
+                <ul>
+                    <li>
+                        <label>Name:</label>
+                        <label>      Email:</label>
+                    </li>
+                    <li>
+                        <input type="text" > 
+                        <input type="text" >
+                    </li>
+                    <li style="margin-top: 20px;">
+                        <label>Telephone:</label>
+                        <label>Subject:</label>
+                    </li>
+                    <li>
+                        <input type="text" >
+                        <input type="text" >
+                    </li>
+                    <li style="margin-top: 20px;"><label>Message:</label></li>
+                    <li><textarea></textarea></li>
+                </ul>
+
+                <button type="button">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            <div class="infor">
+                <h3 style="border-bottom: 3px dashed; padding-bottom: 10px; padding-top: 20px;">FlowerBox 360 Info!</h3>
+                <p>
+                    Openationg Hours: <br>
+                    Monday-Friday:9:000am-5:00pm. <br>
+                    Saturday:9:00am-1.00pm. <br>
+                    Sunday:CLosed (No Deliveries) <br>
+                    ORDER ONLINE 24/7</p>
+                <p>Software Engineering Dept.
+                    Information Technology Faculty
+                    First Floor, H Building</p>
+                <p>12 Nguyen Van Bao, Ward 4,
+                    Go Vap District <br>
+                    Ho Chi Minh City <br>
+                    Tel: 0283.8940 390 <br>
+                    Fax: 0283.9940 954 <br>
+                    </p>
+            </div>
+        </div>
+        <div class="section-2">
+            <h3 style="border-bottom: 3px dashed; padding-bottom: 10px;">Discount & Specials</h3>
+            <img src="../Bai2/rose.png" alt="hinh-anh">
+            <p>
+                FlowerBox 360 offers many great 
+                discounts throught the year, from 
+                coupons and coupon codes, to promo
+                codes and other savings. We also 
+                offer military flower discounts to our 
+                wonderfull troppps!</p>
+            <h4>Read More >></h>
+        </div>
+
+    </div>
+    <div class="footer">
+        Copyright c 2017
+        -All Rights Reserved - Software Engineering Department
+        - Industrial University of Ho Chi Minh City
+    </div>
+    
+</body>
+</html>
